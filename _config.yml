@@ -5,8 +5,8 @@
 # https://sites.google.com/view/litonsarker/
 
 locale                   : "en-US"
-title                    : "Liton Sarker"
-title_separator          : "-"
+title                    : #"Liton Sarker"
+title_separator          : #"-"
 subtitle                 : #"PhD Student (লিটন সরকার)"
 name                     : "Liton Sarker"
 description              : "Deep Learning|Computer Vision|3D Point Cloud"
@@ -15,7 +15,7 @@ baseurl                  : ""
 repository               : #"litonsarker/litonsarker.github.io"
 teaser                   : # filename of teaser fallback teaser image
 relative_links:
-  enabled                : true
+  enabled                : false#true
   collections            : true
 
 # Remote theme - Minimal Mistakes (the base theme AcademicPages is built on)
