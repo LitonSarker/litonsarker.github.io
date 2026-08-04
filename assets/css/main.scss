@@ -6,46 +6,43 @@
 
 @import "minimal-mistakes";
 
-/* Scale down all fonts slightly across the entire site */
 html {
-  font-size: 15px; /* Default is typically 16px */
+  font-size: 15px;
 }
 
 @media screen and (min-width: 1024px) {
-  /* Expand the site container to full width */
   .initial-content, .archive, .page__inner-wrap {
     max-width: 100% !important;
   }
 
-  /* Convert the main wrapper to a flex layout so sticky sidebar works properly */
+  /* Use space-between with controlled widths to close the gap */
   #main, .initial-content {
     display: flex !important;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 3%; /* Controls the precise spacing between the sidebar and content */
   }
   
-  /* Layout page content area on the right */
   .layout--single .page, 
   .layout--archive .archive {
-    width: 82% !important;
+    width: 80% !important;
     float: none !important;
     padding-right: 2% !important;
-    margin-left: 18% !important;
+    margin-left: 0 !important;
   }
   
-  /* Lock the left sidebar completely in place */
   .layout--single .sidebar, 
   .layout--archive .sidebar {
-    width: 16% !important;
+    width: 17% !important;
     position: sticky !important;
     top: 80px !important;
     float: none !important;
     height: calc(100vh - 90px);
     overflow-y: auto;
     flex-shrink: 0;
+    margin-left: 2%; /* Pulls the sidebar slightly away from the far left edge */
   }
 
-  /* Sticky top menu bar */
   .masthead {
     position: sticky;
     top: 0;
