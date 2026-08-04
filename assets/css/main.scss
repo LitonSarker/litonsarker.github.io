@@ -45,20 +45,23 @@ html {
     font-size: 1.05rem;
   }
 
-  /* Force top menu to align with the left sidebar */
+  /* Force top menu container and links to align to the left */
   .masthead__inner-wrap {
     max-width: 100% !important;
-    display: flex !important;
-    justify-content: flex-start !important;
     padding-left: 2% !important;
+    padding-right: 0 !important;
   }
 
-  .masthead__menu {
+  .masthead__menu,
+  .masthead__menu .greedy-nav,
+  .masthead__menu .greedy-nav .visible-links {
+    float: left !important;
     margin-left: 0 !important;
+    left: 0 !important;
   }
 
-  .masthead__menu .greedy-nav {
-    margin-left: 0 !important;
+  .masthead__menu .greedy-nav .visible-links li {
+    float: left !important;
   }
 
   /* Sticky top menu bar */
