@@ -42,14 +42,23 @@ html {
     overflow-y: auto;
     flex-shrink: 0;
     margin-left: 2%; 
-    font-size: 1.05rem; /* Makes text inside the left panel slightly bigger */
+    font-size: 1.05rem;
   }
 
-  /* Align top menu inner wrapper with the left sidebar's position */
+  /* Force top menu to align with the left sidebar */
   .masthead__inner-wrap {
     max-width: 100% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
     padding-left: 2% !important;
-    padding-right: 2% !important;
+  }
+
+  .masthead__menu {
+    margin-left: 0 !important;
+  }
+
+  .masthead__menu .greedy-nav {
+    margin-left: 0 !important;
   }
 
   /* Sticky top menu bar */
