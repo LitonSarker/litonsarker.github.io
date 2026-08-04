@@ -10,9 +10,9 @@ title_separator          : "-"
 subtitle                 : #"PhD Student (লিটন সরকার)"
 name                     : "Liton Sarker"
 description              : "Deep Learning|Computer Vision|3D Point Cloud"
-url                      : https://litonsarker.github.io
+url                      : #https://litonsarker.github.io
 baseurl                  : ""
-repository               : "litonsarker/litonsarker.github.io"
+repository               : #"litonsarker/litonsarker.github.io"
 teaser                   : # filename of teaser fallback teaser image
 relative_links:
   enabled                : true
