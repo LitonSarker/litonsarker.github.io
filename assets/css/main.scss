@@ -21,6 +21,9 @@
   .layout--single .sidebar, 
   .layout--archive .sidebar {
     width: 15% !important;
+    position: sticky !important;
+    top: 80px !important;
+    align-self: flex-start;
   }
 
   /* Sticky top menu bar */
@@ -35,13 +38,5 @@
   /* Push page content down so it doesn't hide behind the sticky header */
   .initial-content {
     padding-top: 30px;
-  }
-
-  /* Sticky left profile sidebar */
-  .sidebar.sticky {
-    position: sticky;
-    top: 90px;
-    height: calc(100vh - 100px);
-    overflow-y: auto;
   }
 }
