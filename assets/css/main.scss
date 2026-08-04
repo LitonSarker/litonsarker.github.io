@@ -6,7 +6,6 @@
 
 @import "minimal-mistakes";
 
-/* Force full width expansion across all single pages and archives */
 @media screen and (min-width: 1024px) {
   .initial-content, .archive, .page__inner-wrap {
     max-width: 100% !important;
@@ -24,19 +23,24 @@
     width: 15% !important;
   }
 
-  /* Make top navigation bar (masthead) sticky */
+  /* Sticky top menu bar */
   .masthead {
     position: sticky;
     top: 0;
-    z-index: 100;
-    background-color: #fff; /* Matches background so text doesn't overlap transparently */
+    z-index: 1000;
+    background-color: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   }
 
-  /* Make left profile sidebar sticky below the top bar */
+  /* Push page content down so it doesn't hide behind the sticky header */
+  .initial-content {
+    padding-top: 30px;
+  }
+
+  /* Sticky left profile sidebar */
   .sidebar.sticky {
     position: sticky;
-    top: 80px; /* Adjust based on your top menu height */
+    top: 90px;
     height: calc(100vh - 100px);
     overflow-y: auto;
   }
