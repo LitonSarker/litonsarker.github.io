@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: "About"
 excerpt: "Liton Sarker - Academic Portfolio"
 author_profile: true
