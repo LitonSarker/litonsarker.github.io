@@ -1,5 +1,6 @@
 ---
 permalink: /
+layout: splash
 title: "About"
 excerpt: "Liton Sarker - Academic Portfolio"
 author_profile: true
