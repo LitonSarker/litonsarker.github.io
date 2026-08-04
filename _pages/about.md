@@ -9,7 +9,6 @@ redirect_from:
   - /about.html
 ---
 
-**About Me**
 **Bridging Advanced AI with the Future of Construction Engineering**
 
 I am a PhD student and AI-ML & Computer Vision research enthusiast with a deep foundation in Computer Science. My academic work centers on bridging advanced artificial intelligence with the future of construction engineering by leveraging deep learning, computer vision, and 3D point cloud processing to transform the built environment.
