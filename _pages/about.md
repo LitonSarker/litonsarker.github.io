@@ -1,10 +1,9 @@
 ---
-permalink: /
-layout: splash
+layout: single
 title: "About"
 excerpt: "Liton Sarker - Academic Portfolio"
 author_profile: true
-permalink: /about/
+permalink: /
 redirect_from:
   - /about/
   - /about.html
