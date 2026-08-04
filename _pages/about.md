@@ -4,9 +4,6 @@ title: "About"
 excerpt: "Liton Sarker - Academic Portfolio"
 author_profile: true
 permalink: /
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 **Bridging AI for Construction Management and Digital Twins**
