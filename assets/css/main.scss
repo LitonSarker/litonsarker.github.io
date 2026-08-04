@@ -6,17 +6,23 @@
 
 @import "minimal-mistakes";
 
-/* Force maximum content expansion on desktop */
+/* Force full width expansion across all single pages, archives, and collections */
 @media screen and (min-width: 1024px) {
-  .initial-content, .archive {
+  .initial-content, .archive, .page__inner-wrap {
     max-width: 100% !important;
   }
-  .layout--single .page {
-    width: 80% !important;
+  
+  .layout--single .page, 
+  .layout--archive .archive, 
+  .layout--talk .page {
+    width: 82% !important;
     float: right !important;
     padding-right: 2% !important;
   }
-  .layout--single .sidebar {
-    width: 16% !important;
+  
+  .layout--single .sidebar, 
+  .layout--archive .sidebar, 
+  .layout--talk .sidebar {
+    width: 15% !important;
   }
 }
