@@ -3,6 +3,7 @@ permalink: /
 title: "About"
 excerpt: "Liton Sarker - Academic Portfolio"
 author_profile: true
+permalink: /about/
 redirect_from:
   - /about/
   - /about.html
