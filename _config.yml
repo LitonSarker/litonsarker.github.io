@@ -7,7 +7,7 @@
 locale                   : "en-US"
 title                    : "Liton Sarker"
 title_separator          : "-"
-subtitle                 : "PhD Student (লিটন সরকার)"
+subtitle                 : #"PhD Student (লিটন সরকার)"
 name                     : "Liton Sarker"
 description              : "Deep Learning | Computer Vision | 3D Point Cloud | IT/Telecom"
 url                      : https://litonsarker.github.io
@@ -51,9 +51,9 @@ plugins:
   - jekyll-remote-theme
 
 author:
-  name             : "Liton Sarker"
+  name             : "Liton Sarker (লিটন সরকার)"
   avatar           : "/images/profile.png"
-  bio              : "Deep Learning | Computer Vision | 3D Point Cloud | IT/Telecom"
+  bio              : "Deep Learning*Computer Vision*3D Point Cloud"
   location         : "Baton Rouge, Louisiana, USA"
   employer         : "Louisiana State University"
   links:
@@ -72,24 +72,24 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/LitonSarker"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/BD.Liton.Sarker/"
-    - label: "Twitter / X"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/SarkerLiton"
+    - label: #"Facebook"
+      icon: #"fab fa-fw fa-facebook-square"
+      url: #"https://www.facebook.com/BD.Liton.Sarker/"
+    - label: #"Twitter / X"
+      icon: #"fab fa-fw fa-twitter-square"
+      url: #"https://twitter.com/SarkerLiton"
 
 footer:
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/litonsarker/"
-    - label: "Google Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=Sdt4jBMAAAAJ&hl=en"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/LitonSarker"
+    - label: #"LinkedIn"
+      icon: #"fab fa-fw fa-linkedin"
+      url: #"https://www.linkedin.com/in/litonsarker/"
+    - label: #"Google Scholar"
+      icon: #"fas fa-fw fa-graduation-cap"
+      url: #"https://scholar.google.com/citations?user=Sdt4jBMAAAAJ&hl=en"
+    - label: #"GitHub"
+      icon: #"fab fa-fw fa-github"
+      url: #"https://github.com/LitonSarker"
 
 defaults:
   # _pages
