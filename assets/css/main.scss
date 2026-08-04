@@ -6,13 +6,17 @@
 
 @import "minimal-mistakes";
 
-/* Widen the content container to stretch across the page */
+/* Force maximum content expansion on desktop */
 @media screen and (min-width: 1024px) {
+  .initial-content, .archive {
+    max-width: 100% !important;
+  }
   .layout--single .page {
-    float: right;
-    width: 78%;
+    width: 80% !important;
+    float: right !important;
+    padding-right: 2% !important;
   }
   .layout--single .sidebar {
-    width: 18%;
+    width: 16% !important;
   }
 }
