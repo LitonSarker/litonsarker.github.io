@@ -9,7 +9,7 @@ title                    : "Liton Sarker"
 title_separator          : "-"
 subtitle                 : #"PhD Student (লিটন সরকার)"
 name                     : "Liton Sarker"
-description              : "Deep Learning | Computer Vision | 3D Point Cloud | IT/Telecom"
+description              : "Deep Learning|Computer Vision|3D Point Cloud"
 url                      : https://litonsarker.github.io
 baseurl                  : ""
 repository               : "litonsarker/litonsarker.github.io"
@@ -53,7 +53,7 @@ plugins:
 author:
   name             : "Liton Sarker (লিটন সরকার)"
   avatar           : "/images/profile.png"
-  bio              : "Deep Learning*Computer Vision*3D Point Cloud"
+  bio              : "Deep Learning|Computer Vision|3D Point Cloud"
   location         : "Baton Rouge, Louisiana, USA"
   employer         : "Louisiana State University"
   links:
