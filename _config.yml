@@ -1,0 +1,167 @@
+# Welcome to Jekyll!
+#
+# This is the AcademicPages (Minimal Mistakes fork) configuration file for
+# Liton Sarker's personal/academic portfolio, rebuilt from
+# https://sites.google.com/view/litonsarker/
+
+locale                   : "en-US"
+title                    : "Liton Sarker"
+title_separator          : "-"
+subtitle                 : "PhD Student, AI for Construction Management, Louisiana State University"
+name                     : "Liton Sarker"
+description              : "Personal academic portfolio of Liton Sarker — PhD student researching Deep Learning, Computer Vision, and 3D Point Cloud processing for construction management, with 16+ years of IT/telecom industry leadership."
+url                      : https://litonsarker.github.io
+baseurl                  : ""
+repository               : "litonsarker/litonsarker.github.io"
+teaser                   : # filename of teaser fallback teaser image
+relative_links:
+  enabled                : true
+  collections            : true
+
+# Remote theme - Minimal Mistakes (the base theme AcademicPages is built on)
+remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin    : "default"
+
+# Build settings
+markdown                 : kramdown
+locale                   : en-US
+teaser                   :
+paginate                 : 5
+paginate_path            : /page:num/
+
+words_per_minute          : 160
+future                   : true
+
+comments:
+  provider              : false
+
+atom_feed:
+  hide                  : true
+
+search                   : true
+search_full_content      : true
+search_provider          : lunr
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+author:
+  name             : "Liton Sarker"
+  avatar           : "/images/profile.jpg"
+  bio              : "PhD Student, AI for Construction Management @ Louisiana State University. Deep Learning · Computer Vision · 3D Point Cloud. 16+ yrs IT/Telecom leadership."
+  location         : "Baton Rouge, Louisiana, USA"
+  employer         : "Louisiana State University"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:Liton.Sarker@lsu.edu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/litonsarker/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=Sdt4jBMAAAAJ&hl=en"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Liton-Sarker"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/LitonSarker"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/BD.Liton.Sarker/"
+    - label: "Twitter / X"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/SarkerLiton"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/litonsarker/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=Sdt4jBMAAAAJ&hl=en"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/LitonSarker"
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+      comments: false
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
+
+collections:
+  publications:
+    output: true
+    permalink: /publication/:path/
+  talks:
+    output: true
+    permalink: /talk/:path/
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+include: ["_pages"]
+exclude:
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
