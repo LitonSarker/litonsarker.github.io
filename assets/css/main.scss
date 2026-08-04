@@ -6,6 +6,11 @@
 
 @import "minimal-mistakes";
 
+/* Scale down all fonts slightly across the entire site */
+html {
+  font-size: 15px; /* Default is typically 16px */
+}
+
 @media screen and (min-width: 1024px) {
   /* Expand the site container to full width */
   .initial-content, .archive, .page__inner-wrap {
