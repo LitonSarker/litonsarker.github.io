@@ -53,7 +53,7 @@ plugins:
 author:
   name             : "Liton Sarker (লিটন সরকার)"
   avatar           : "/images/profile.png"
-  bio              : "Deep Learning|Computer Vision|3D Point Cloud"
+  bio              : "Deep Learning,Computer Vision,3D Point Cloud"
   location         : "Baton Rouge, LA, USA"
   employer         : "Louisiana State University"
   links:
