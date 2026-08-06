@@ -73,4 +73,18 @@ html {
     width: 100% !important;
     height: auto !important;
   }
+
+  /* Force top menu to always stay visible and never collapse into a hamburger button */
+.greedy-nav .visible-links {
+  display: flex !important;
+}
+
+.greedy-nav .hidden-links {
+  display: none !important;
+}
+
+.greedy-nav__toggle {
+  display: none !important;
+}
+  
 }
