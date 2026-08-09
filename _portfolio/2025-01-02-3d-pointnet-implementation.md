@@ -29,3 +29,5 @@ Construction projects often lack reliable and updated BIM models, which makes ma
 * Comparison of as-built vs BIM models (or pseudo-BIM)
 * Detecting installed vs missing elements on site
 * Compatible with data from LiDAR, CCTV, drones
+
+{% include figure image_path="/images/3D_PointNet_Implementation.png" alt="Project Screenshot" caption="Fig: 3D PointNet++ Implementation for Smart Construction Management" %}
