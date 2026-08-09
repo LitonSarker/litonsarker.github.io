@@ -25,4 +25,4 @@ Built using pyRevit API and IronPython, this tool forms the Ground Truth (GT) da
 * Extract 3D coordinates (in project units) of each element
 * Support for linked Revit models
 
-{% include figure image_path="/images/Revit_Automation_UI.png.png" alt="Project Screenshot" caption="Fig: Revit Automation Tool UI" %}
+{% include figure image_path="/images/Revit_Automation_UI.png" alt="Project Screenshot" caption="Fig: Revit Automation Tool UI" %}
