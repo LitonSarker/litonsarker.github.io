@@ -25,4 +25,4 @@ Built using pyRevit API and IronPython, this tool forms the Ground Truth (GT) da
 * Extract 3D coordinates (in project units) of each element
 * Support for linked Revit models
 
-Part of LSU Construction Management Department research — focused on progress tracking, pseudo-BIM dataset generation, and AI/ML model training.
+{% include figure image_path="/images/Revit_Automation_UI.png.png" alt="Project Screenshot" caption="Fig: 3D PointNet++ Implementation for Smart Construction Management" %}
